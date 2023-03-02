@@ -1,0 +1,74 @@
+
+header {
+  height: 120px;
+  padding: 10px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  height: 600px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  /* background-color: red; */
+
+}
+main section.home {
+  width: 100%;
+  height: 100px;
+  background-color: yellow;
+}
+main nav.submenu {
+  width: 20%;
+  /* background-color: green; */
+}
+
+main .submenu {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  height: 50%;
+}
+
+main .submenu a {
+  padding: 10px;
+  width: 90%;
+  height: 50px;
+  border: 2px solid black;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+main .submenu a:hover {
+  background-color: gray;
+}
+main section.body {
+  width: 75%;;
+  /* background-color: orange; */
+}
+
+.equipos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.equipos .equipo {
+  padding: 5px;
+  width: 30%;
+  border: 2px solid black;
+  min-height: 150px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0,.2);
+  margin-bottom: 10px;
+}
+.equipo h4 {
+  text-align: center;
+  background-color: rgba(0,0,255,.3);
+}
